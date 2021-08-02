@@ -15,22 +15,25 @@
                 Enter the bill Amount and the cash amount given by the customer and get to know the minimum number of notes to be returned.
             </p>
 
-            <div class="input-container">
+            <div class="input-container bill-container">
                 <label for="bill-amount">Bill Amount:</label>
             <input type="number" id="bill-amount" class="input">
             </div>
 
             <button class="btn check-amount-btn">Next</button>
 
-            <div class="input-container">
+            <div class="input-container cash-container">
                 <label for="cash-given">Cash given:</label>
             <input type="number" id="cash-given" class="input">
-            </div>
 
             <button class="btn return-change-btn">Check</button>
+            </div>
+
+            
             
 
-            <div class="message-area">
+            <div>
+                <p class="message-area"></p>
             </div>
             
             <table class="change-table">
@@ -70,5 +73,6 @@
             </table>
         </div>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>
