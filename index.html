@@ -15,43 +15,55 @@
                 Enter the bill Amount and the cash amount given by the customer and get to know the minimum number of notes to be returned.
             </p>
 
-            <label for="bill-amount">Bill Amount:</label>
-            <input type="number" id="bill-amount">
+            <div class="input-container">
+                <label for="bill-amount">Bill Amount:</label>
+            <input type="number" id="bill-amount" class="input">
+            </div>
 
-            <label for="cash-given">Cash given:</label>
-            <input type="number" id="cash-given">
+            <button class="btn check-amount-btn">Next</button>
+
+            <div class="input-container">
+                <label for="cash-given">Cash given:</label>
+            <input type="number" id="cash-given" class="input">
+            </div>
+
+            <button class="btn return-change-btn">Check</button>
+            
+
+            <div class="message-area">
+            </div>
             
             <table class="change-table">
                 <Thead>
-                    <th>Change to be returned</th>
+                    <th>Change to be returned:</th>
                 </Thead>
                 <tbody>
                     <tr>
-                        <td class="note"></td>
+                        <td class="note">2000</td>
                         <td class="no-of-notes"></td>
                     </tr>
                     <tr>
-                        <td class="note"></td>
+                        <td class="note">500</td>
                         <td class="no-of-notes"></td>
                     </tr>
                     <tr>
-                        <td class="note"></td>
+                        <td class="note">100</td>
                         <td class="no-of-notes"></td>
                     </tr>
                     <tr>
-                        <td class="note"></td>
+                        <td class="note">20</td>
                         <td class="no-of-notes"></td>
                     </tr>
                     <tr>
-                        <td class="note"></td>
+                        <td class="note">10</td>
                         <td class="no-of-notes"></td>
                     </tr>
                     <tr>
-                        <td class="note"></td>
+                        <td class="note">5</td>
                         <td class="no-of-notes"></td>
                     </tr>
                     <tr>
-                        <td class="note"></td>
+                        <td class="note">1</td>
                         <td class="no-of-notes"></td>
                     </tr>
                 </tbody>
