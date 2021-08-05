@@ -43,12 +43,15 @@ main {
 
 .input { 
     font-size: 1.3rem;
+    padding: .5rem;
     background: none;
     border: 1px solid var(--color-text);
     border-radius: .4rem;
 }
 
 .btn{
+    display: block;
+    margin: 0.5rem auto 1rem;
     font-size: 1rem;
     background-color: var(--color-background);
     border: 1px solid var(--color-text);
@@ -56,6 +59,21 @@ main {
     padding: .5em .75em;
 }
 
-.change-table  {
+.change-table, thead, tbody {
+    border: 3px solid var(--color-text);
+    width: 80%;
+    margin: 0 auto;
+}
+
+th {
     text-align: center;
+    width: 50%;
+    border-bottom: 3px solid var(--color-text);
+    padding: .5rem;
+}
+
+td {
+    padding: .4rem;
+    text-align: center;
+    border-bottom: 1px dotted var(--color-text) ;
 }
